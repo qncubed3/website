@@ -1,21 +1,39 @@
 body {
   font-family: sans-serif;
-  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
   text-align: center;
-  padding: 50px;
 }
-h1{
-    text-align: center;
-    font-family: monospace;
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
 }
-#calendar{
-    width: auto;
-    height: 500px;
-    border: 1px solid lightGrey;
+
+.controls {
+  margin-bottom: 1em;
 }
-#newEventButton{
-    cursor: pointer;
+
+.grid {
+  flex: 1;
+  display: grid;
+  gap: 2px;
+  background-color: #ccc;
+  border: 1px solid #aaa;
 }
-#getEventList{
-    cursor: pointer;
+
+.grid div {
+  background-color: white;
+  aspect-ratio: 1;
+  border: 1px solid #999;
 }

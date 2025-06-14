@@ -1,19 +1,27 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group Calendar</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/icon.png">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quan Nguyen | Home</title>
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
 </head>
 <body>
-    <h1>Group Calendar</h1>
-    <div id="calendar"></div><br>
-    <button id="newEventButton">Create Event</button>
-    <button id="getEventList">Print Events</button>
-    <script type="module" src="index.js"></script>
+    <header>
+        <h1>Quan Nguyen</h1>
+    </header>
+
+    <main>
+        <div>
+            <label for="gridSize">Grid Size: <span id="gridValue">10</span> × <span id="gridValue2">10</span></label>
+        </div>
+        <div class="controls">
+            <input type="range" id="gridSize" min="2" max="20" value="10">
+        </div>
+        <div id="gridContainer" class="grid"></div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
