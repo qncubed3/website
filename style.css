@@ -4,3 +4,18 @@ body {
   text-align: center;
   padding: 50px;
 }
+h1{
+    text-align: center;
+    font-family: monospace;
+}
+#calendar{
+    width: auto;
+    height: 500px;
+    border: 1px solid lightGrey;
+}
+#newEventButton{
+    cursor: pointer;
+}
+#getEventList{
+    cursor: pointer;
+}
