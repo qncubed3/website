@@ -1,21 +1,34 @@
 body {
   font-family: sans-serif;
-  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
   text-align: center;
-  padding: 50px;
 }
-h1{
-    text-align: center;
-    font-family: monospace;
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
 }
-#calendar{
-    width: auto;
-    height: 500px;
-    border: 1px solid lightGrey;
-}
-#newEventButton{
-    cursor: pointer;
-}
-#getEventList{
-    cursor: pointer;
+
+.logo-wrapper {
+  box-sizing: border-box;
+  display: block;
+  font-family: Roboto;
+  font-size: 18px;
+  height: 90px;
+  line-height: 28.8px;
+  margin-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
 }
