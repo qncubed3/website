@@ -60,6 +60,7 @@ main {
   cursor: pointer;
   font-size: medium;
   transition: .5s;
+  min-width: 150px;    
 }
 
 .button:hover {
