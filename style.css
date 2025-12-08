@@ -20,20 +20,15 @@ main {
   padding: 1em;
 }
 
-.controls {
-  margin-bottom: 1em;
-}
-
-.grid {
-  flex: 1;
-  display: grid;
-  gap: 2px;
-  background-color: #ccc;
-  border: 1px solid #aaa;
-}
-
-.grid div {
-  background-color: white;
-  aspect-ratio: 1;
-  border: 1px solid #999;
+.logo-wrapper {
+  box-sizing: border-box;
+  display: block;
+  font-family: Roboto;
+  font-size: 18px;
+  height: 90px;
+  line-height: 28.8px;
+  margin-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
 }
