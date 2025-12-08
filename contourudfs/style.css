@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: sans-serif;
   margin: 0;
@@ -103,3 +104,110 @@ form input[type="reset"] {
   margin-top: 15px;
   width: 113px;
 }
+=======
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(224, 237, 255);
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+#content {
+  width: 800px;
+  margin: 0 auto;
+  background-color: rgb(193, 213, 250);
+  border-radius: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logo-wrapper img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+
+.main-title {
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  max-width: 90%;
+  text-align: center;
+  align-self: center;
+}
+
+.button {
+  background-color: rgb(0, 122, 255);
+  width: 30%;
+  height: 40px;
+  color: white;
+  border: none;
+  margin: .5em;
+  cursor: pointer;
+  font-size: medium;
+  transition: .5s;
+  min-width: 150px;    
+}
+
+.button:hover {
+  background-color: rgb(0, 180, 255);
+}
+
+.button-row {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home {
+  background-color: rgb(255, 168, 55);
+}
+
+.home:hover {
+  background-color: rgb(255, 200, 100);
+}
+
+.paragraph {
+  padding: 1em;
+  color: rgb(28, 27, 33)
+}
+
+form input[type="text"] {
+  width: 220px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+  padding: 10px;
+  margin: 5px;
+  margin-top: 15px;
+  width: 113px;
+}
+>>>>>>> a27f7a6f429de7beaace2f82e51233bbd70bb18a
