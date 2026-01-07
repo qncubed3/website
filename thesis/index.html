@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masters Thesis - Quan Nguyen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: white;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        nav {
+            padding: 2rem;
+            padding-left: 6rem;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1a1a1a;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 3rem 6rem;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 4rem;
+        }
+
+        .left-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .left-section p {
+            margin-bottom: 0.25rem;
+            font-size: 1.2rem;
+        }
+
+        .right-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+
+        .thesis-section {
+            margin-bottom: 2rem;
+        }
+
+        .thesis-description {
+            margin-bottom: 1rem;
+        }
+
+        .thesis-pdf-download {
+            margin-bottom: 1rem;
+        }
+
+        .thesis-slides-download {
+            margin-bottom: 1rem;
+        }
+
+        .thesis-section h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .thesis-section p {
+            color: #4a4a4a;
+        }
+
+        .thesis-meta {
+            margin-bottom: 2rem;
+            color: #4a4a4a;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                padding-left: 2rem;
+            }
+            
+            .container {
+                padding: 3rem 2rem;
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Quan Nguyen</a></li>
+            <li><a href="">Masters Thesis</a></li>
+            <li><a href="#youtube">YouTube</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="left-section">
+            <div class="pfp">
+                <img src="../assets/profile picture white.png" alt="qncubed3 logo" style="width: 50%; height: auto;">
+            </div>
+            <h1>Quan Nguyen</h1>
+            <p>qncubed3@gmail.com</p>
+        </div>
+
+        <div class="right-section">
+            <div class="thesis-section">
+                <img src="../assets/tikz_website_display.svg" alt="Cylinder decomposition diagram" style="width: 100%; height: auto;">
+            </div>
+            <h2>Masters Thesis</h2>
+
+            <div class="thesis-description">
+                My thesis explores a geometric and combinatorial method to compute the Masur-Veech volumes of the moduli space of quadratic differentials.
+            </div>
+
+            <div class="thesis-pdf-download">
+                <p><a href="../assets/Quan_Nguyen_Masters_Thesis.pdf" style="color: #1a1a1a; text-decoration: underline;">Thesis PDF</a></p>
+            </div>
+            <div class="thesis-slides-download">
+                <p><a href="../assets/Quan Masters Thesis Presentation.pdf" style="color: #1a1a1a; text-decoration: underline;">Thesis Presentation Slides</a></p>
+            </div>
+
+            <div class="thesis-section">
+                <h3>Abstract</h3>
+                <p>
+                    Many dynamical and enumerative problems can be recast in terms of translation surfaces, 
+                    and studying the associated moduli spaces can reveal fascinating insights into
+                    their behaviour. We develop combinatorial tools to compute volumes of these moduli
+                    spaces and provide a new extension to recent techniques to evaluate volumes of strata.
+                    Kontsevich’s proof of Witten’s conjecture provided a link between intersection theory
+                    and counts of ribbon graphs which was later developed to evaluate volumes of principal
+                    strata. We discuss this approach and some applications to combinatorial problems of
+                    meander counts.
+                </p>
+            </div>            
+        </div>
+    </div>
+</body>
+</html>
