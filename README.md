@@ -1,3 +1,6 @@
-# My GitHub Website
+# Quan Nguyen's website.
 
-This repository contains a basic HTML/CSS/JS website, deployed using GitHub Pages.
+Link: [qncubed3.com](qncubed3.com)
+
+
+
