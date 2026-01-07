@@ -1,6 +1,7 @@
 # Quan Nguyen's website.
 
-Link: [qncubed3.com](qncubed3.com)
+Link: [qncubed3.com](https://qncubed3.com)
+
 
 
 
